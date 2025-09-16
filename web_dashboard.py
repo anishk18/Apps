@@ -66,7 +66,7 @@ def load_data(path):
     df = pd.read_csv(path, index_col='Datetime')
     return df
 
-df = load_data(r'C:\Users\karni\OneDrive\Documents\GitHub\Apps\Energy Consumption Dashboard\data\power_weather_monthly.csv')
+df = load_data(r'data\power_weather_monthly.csv')
 st.dataframe(df)
 
 # Section : Data Dictionary
