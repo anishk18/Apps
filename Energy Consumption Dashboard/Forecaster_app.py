@@ -66,7 +66,7 @@ def load_data(path):
     df = pd.read_csv(path)
     return df
 
-df = load_data(r"C:\Users\karni\OneDrive\Desktop\GitHub\BrainStation_CapstoneProject\data\power_weather_monthly.csv")
+df = load_data(r"C:\Users\karni\OneDrive\Documents\GitHub\Apps\Energy Consumption Dashboard\data\power_weather_monthly.csv")
 st.dataframe(df)
 
 
