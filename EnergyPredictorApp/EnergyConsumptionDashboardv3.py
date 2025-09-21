@@ -52,7 +52,7 @@ def load_real_data():
     """
     Load real data from CSV file
     """
-    df = pd.read_csv("data/power_weather_daily.csv")
+    df = pd.read_csv(r"C:\Users\karni\OneDrive\Documents\GitHub\Apps\EnergyPredictorApp\data\power_weather_daily.csv")
     # Rename columns for compatibility with rest of app
     df = df.rename(columns={
         'Datetime': 'datetime',
